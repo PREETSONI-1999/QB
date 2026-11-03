@@ -1,0 +1,30 @@
+[
+  {
+    "id": "os",
+    "name": "Operating Systems",
+    "short": "OS",
+    "file": "os.json",
+    "description": "Processes, scheduling, memory and the fundamentals of operating systems."
+  },
+  {
+    "id": "dbms",
+    "name": "Database Management",
+    "short": "DB",
+    "file": "dbms.json",
+    "description": "Relational databases, SQL, keys and transaction concepts."
+  },
+  {
+    "id": "cn",
+    "name": "Computer Networks",
+    "short": "CN",
+    "file": "cn.json",
+    "description": "Networking layers, protocols and data communication."
+  },
+  {
+    "id": "c",
+    "name": "C Programming",
+    "short": "C",
+    "file": "c.json",
+    "description": "Core C language concepts, pointers, arrays and expressions."
+  }
+]

@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <meta name="description" content="A personal, lightweight computer science practice question bank.">
+  <title>PrepDesk — Practice Questions</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="PrepDesk home">
+        <span class="brand-mark">P</span>
+        <span>PrepDesk</span>
+      </a>
+      <div class="topbar-actions">
+        <span class="save-indicator"><span class="save-dot"></span> Progress saved in this browser</span>
+        <button class="icon-button" id="theme-toggle" type="button" aria-label="Toggle theme" title="Toggle theme">☾</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="welcome">
+        <div>
+          <p class="eyebrow">YOUR PERSONAL QUESTION BANK</p>
+          <h1>Practice. Review. Improve.</h1>
+          <p class="welcome-copy">Work through questions at your own pace. Reveal answers only when you're ready, then mark your result.</p>
+        </div>
+        <div class="overall-progress" aria-live="polite">
+          <span class="overall-label">Overall progress</span>
+          <strong id="overall-percent">0%</strong>
+          <div class="progress-track"><span id="overall-bar"></span></div>
+          <span class="overall-caption" id="overall-caption">0 of 4 questions reviewed</span>
+        </div>
+      </section>
+
+      <section class="workspace">
+        <aside class="sidebar">
+          <div class="section-heading">
+            <span class="eyebrow">LIBRARY</span>
+            <span class="subject-count" id="subject-count">4 subjects</span>
+          </div>
+          <nav id="subject-nav" class="subject-nav" aria-label="Subjects">
+            <p class="muted small">Loading subjects…</p>
+          </nav>
+          <div class="sidebar-note">
+            <span class="note-icon">✦</span>
+            <p><strong>Your progress stays local.</strong><br>It is saved in this browser, not uploaded to a server.</p>
+          </div>
+        </aside>
+
+        <section class="content-area">
+          <div class="content-header">
+            <div>
+              <p class="eyebrow" id="subject-eyebrow">SUBJECT</p>
+              <h2 id="subject-title">Loading…</h2>
+              <p class="subject-description" id="subject-description"></p>
+            </div>
+            <div class="subject-total"><strong id="subject-total">—</strong><span>questions</span></div>
+          </div>
+
+          <div class="stats-row" aria-live="polite">
+            <div class="stat stat-yellow"><span class="stat-dot"></span><span>Unattempted</span><strong id="count-unattempted">0</strong></div>
+            <div class="stat stat-red"><span class="stat-dot"></span><span>Wrong</span><strong id="count-wrong">0</strong></div>
+            <div class="stat stat-green"><span class="stat-dot"></span><span>Correct</span><strong id="count-correct">0</strong></div>
+          </div>
+
+          <div class="toolbar">
+            <label class="search-box">
+              <span aria-hidden="true">⌕</span>
+              <input id="search-input" type="search" placeholder="Search questions…" autocomplete="off">
+            </label>
+            <label class="select-wrap">
+              <span class="sr-only">Filter by status</span>
+              <select id="status-filter">
+                <option value="all">All questions</option>
+                <option value="unattempted">Unattempted</option>
+                <option value="wrong">Wrong</option>
+                <option value="correct">Correct</option>
+              </select>
+            </label>
+            <label class="select-wrap topic-select-wrap">
+              <span class="sr-only">Filter by topic</span>
+              <select id="topic-filter"><option value="all">All topics</option></select>
+            </label>
+            <button class="button button-quiet" id="shuffle-button" type="button">↝ Shuffle</button>
+          </div>
+
+          <div class="question-list" id="question-list" aria-live="polite">
+            <div class="loading-card">Loading your questions…</div>
+          </div>
+
+          <div class="empty-state hidden" id="empty-state">
+            <div class="empty-icon">⌕</div>
+            <h3>No questions found</h3>
+            <p>Try changing your search or filters.</p>
+            <button class="button button-secondary" id="clear-filters" type="button">Clear filters</button>
+          </div>
+
+          <footer class="content-footer">
+            <span id="visible-count">Showing 0 questions</span>
+            <div class="footer-actions">
+              <button class="text-button" id="export-button" type="button">Export progress</button>
+              <label class="text-button import-label" for="import-input">Import progress</label>
+              <input id="import-input" class="sr-only" type="file" accept="application/json,.json">
+              <button class="text-button danger-text" id="reset-button" type="button">Reset this subject</button>
+            </div>
+          </footer>
+        </section>
+      </section>
+    </main>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <input class="sr-only" id="global-reset-input" type="checkbox" aria-hidden="true">
+  </div>
+</body>
+</html>

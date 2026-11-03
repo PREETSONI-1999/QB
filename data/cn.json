@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cn-001",
+    "topic": "Networking Basics",
+    "type": "MCQ",
+    "question": "Which layer of the OSI model is responsible for end-to-end delivery and port addressing?",
+    "options": [
+      "Network layer",
+      "Transport layer",
+      "Data Link layer",
+      "Session layer"
+    ],
+    "answer": "Transport layer",
+    "explanation": "The transport layer provides process-to-process delivery. TCP and UDP use port numbers to identify application endpoints."
+  }
+]

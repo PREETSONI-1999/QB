@@ -1,0 +1,16 @@
+[
+  {
+    "id": "os-001",
+    "topic": "CPU Scheduling",
+    "type": "MCQ",
+    "question": "Which CPU scheduling algorithm is designed to give each process a fixed time slice in a cyclic order?",
+    "options": [
+      "First Come First Served (FCFS)",
+      "Shortest Job First (SJF)",
+      "Round Robin",
+      "Priority Scheduling"
+    ],
+    "answer": "Round Robin",
+    "explanation": "Round Robin assigns a time quantum to each ready process and cycles through the ready queue. A process is preempted when its time quantum expires."
+  }
+]

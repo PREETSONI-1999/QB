@@ -1,0 +1,16 @@
+[
+  {
+    "id": "dbms-001",
+    "topic": "SQL",
+    "type": "MCQ",
+    "question": "Which SQL clause is used to filter groups after the GROUP BY operation?",
+    "options": [
+      "WHERE",
+      "HAVING",
+      "ORDER BY",
+      "DISTINCT"
+    ],
+    "answer": "HAVING",
+    "explanation": "WHERE filters rows before grouping. HAVING filters groups after GROUP BY, often using aggregate conditions such as COUNT(*) > 1."
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "c-001",
+    "topic": "Pointers",
+    "type": "MCQ",
+    "question": "What is the value of the expression *(&x), assuming x is a valid integer variable?",
+    "options": [
+      "The address of x",
+      "The value stored in x",
+      "An undefined value",
+      "The size of x"
+    ],
+    "answer": "The value stored in x",
+    "explanation": "&x produces the address of x. Dereferencing that address with * gives the value stored in x."
+  }
+]
