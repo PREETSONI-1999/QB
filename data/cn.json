@@ -12,5 +12,165 @@
     ],
     "answer": "Transport layer",
     "explanation": "The transport layer provides process-to-process delivery. TCP and UDP use port numbers to identify application endpoints."
+  },
+  {
+    "id": "original-cn-001",
+    "topic": "Transport",
+    "type": "MCQ",
+    "question": "Which transport protocol provides reliable ordered byte-stream delivery?",
+    "options": [
+      "UDP",
+      "IP",
+      "ICMP",
+      "TCP"
+    ],
+    "answer": "TCP",
+    "explanation": "TCP uses sequence numbers, acknowledgments, and retransmissions.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-cn-002",
+    "topic": "Network",
+    "type": "MCQ",
+    "question": "Which protocol maps an IPv4 address to a link-layer MAC address on a LAN?",
+    "options": [
+      "HTTP",
+      "DHCP",
+      "ARP",
+      "DNS"
+    ],
+    "answer": "ARP",
+    "explanation": "ARP resolves local IPv4 next-hop addresses to hardware addresses.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-cn-003",
+    "topic": "Application",
+    "type": "MCQ",
+    "question": "Which protocol typically translates hostnames into IP addresses?",
+    "options": [
+      "SSH",
+      "DNS",
+      "SMTP",
+      "ARP"
+    ],
+    "answer": "DNS",
+    "explanation": "DNS resolves names using distributed records and caches.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-cn-004",
+    "topic": "IP Addressing",
+    "type": "MCQ",
+    "question": "How many usable host addresses are normally in an IPv4 /26 subnet?",
+    "options": [
+      "62",
+      "64",
+      "30",
+      "126"
+    ],
+    "answer": "62",
+    "explanation": "A /26 leaves 6 host bits: 64 addresses minus network and broadcast.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-cn-005",
+    "topic": "Routing",
+    "type": "MCQ",
+    "question": "Which routing algorithm is associated with link-state protocols such as OSPF?",
+    "options": [
+      "Bellman-Ford only",
+      "Round Robin",
+      "Kruskal MST",
+      "Dijkstra’s shortest-path algorithm"
+    ],
+    "answer": "Dijkstra’s shortest-path algorithm",
+    "explanation": "OSPF floods link-state information and computes shortest-path trees.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-cn-006",
+    "topic": "Transport",
+    "type": "MCQ",
+    "question": "What is the purpose of TCP’s three-way handshake?",
+    "options": [
+      "Encrypt all packets automatically",
+      "Assign MAC addresses",
+      "Establish connection state and synchronize sequence numbers",
+      "Resolve domain names"
+    ],
+    "answer": "Establish connection state and synchronize sequence numbers",
+    "explanation": "SYN, SYN-ACK, and ACK establish the connection.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-cn-007",
+    "topic": "Data Link",
+    "type": "MCQ",
+    "question": "What does a CRC primarily detect?",
+    "options": [
+      "User authentication",
+      "Transmission errors",
+      "Congestion",
+      "Packet routing loops"
+    ],
+    "answer": "Transmission errors",
+    "explanation": "CRC checks polynomial remainders to detect many bit-error patterns.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-cn-008",
+    "topic": "Network",
+    "type": "MCQ",
+    "question": "What happens to the IPv4 TTL field at each router hop?",
+    "options": [
+      "It is decremented",
+      "It doubles",
+      "It stays constant",
+      "It becomes the MTU"
+    ],
+    "answer": "It is decremented",
+    "explanation": "TTL limits forwarding loops; packets are discarded when it expires.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-cn-009",
+    "topic": "Application",
+    "type": "MCQ",
+    "question": "Which HTTP status code means Not Found?",
+    "options": [
+      "200",
+      "301",
+      "500",
+      "404"
+    ],
+    "answer": "404",
+    "explanation": "HTTP 404 indicates the requested resource was not found.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-cn-010",
+    "topic": "Subnetting",
+    "type": "MCQ",
+    "question": "Which IPv4 address is private?",
+    "options": [
+      "1.1.1.1",
+      "203.0.113.8",
+      "192.168.1.10",
+      "8.8.8.8"
+    ],
+    "answer": "192.168.1.10",
+    "explanation": "192.168.0.0/16 is one of the RFC 1918 private address blocks.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
   }
 ]

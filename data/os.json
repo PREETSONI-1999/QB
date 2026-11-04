@@ -12,5 +12,199 @@
     ],
     "answer": "Round Robin",
     "explanation": "Round Robin assigns a time quantum to each ready process and cycles through the ready queue. A process is preempted when its time quantum expires."
+  },
+  {
+    "id": "pdf-os-001",
+    "topic": "Synchronization",
+    "type": "MCQ",
+    "question": "Consider the following statements about busy waiting: I. Sleep/wake methods can avoid busy waiting. II. Busy waiting does not increase overhead. III. Switching between sleep and wake states introduces overhead. IV. Busy waiting uses CPU time without doing useful work. Which statements are true?",
+    "options": [
+      "Only II, III and IV",
+      "Only I",
+      "Only I and III",
+      "Only III"
+    ],
+    "answer": "I, III and IV are true (none of the listed options matches).",
+    "explanation": "Sleeping avoids CPU spinning. Context switches introduce overhead, and busy waiting consumes CPU cycles. The source options appear inconsistent; verify against the original question.",
+    "source": "batch_17.pdf",
+    "source_page": 2,
+    "verification": "review"
+  },
+  {
+    "id": "pdf-os-002",
+    "topic": "CPU Scheduling",
+    "type": "MCQ",
+    "question": "Under shortest remaining time first (SRTF), processes have (arrival time, burst time): P1=(0,9), P2=(1,3), P3=(2,8), P4=(3,5). What is their completion order?",
+    "options": [
+      "P3, P1, P2, P4",
+      "P2, P4, P1, P3",
+      "P1, P2, P3, P4",
+      "P4, P1, P3, P2"
+    ],
+    "answer": "P2, P4, P3, P1",
+    "explanation": "At t=1, P2 preempts P1 and completes at t=4. P4 runs 4–9; P3 runs 9–17; P1 runs 17–25. None of the visible choices matches this order, so the question/options require review.",
+    "source": "batch_11.pdf",
+    "source_page": 6,
+    "verification": "review"
+  },
+  {
+    "id": "original-os-001",
+    "topic": "Scheduling",
+    "type": "MCQ",
+    "question": "Which scheduling policy can cause starvation of long CPU-bound jobs?",
+    "options": [
+      "Round Robin",
+      "FCFS",
+      "FIFO disk scheduling",
+      "Shortest Job First"
+    ],
+    "answer": "Shortest Job First",
+    "explanation": "Repeated arrivals of short jobs can postpone a long job indefinitely.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-os-002",
+    "topic": "Scheduling",
+    "type": "MCQ",
+    "question": "In preemptive SJF, the running process is reconsidered when what happens?",
+    "options": [
+      "Only at midnight",
+      "Only when I/O completes",
+      "A new process arrives",
+      "Only when it finishes"
+    ],
+    "answer": "A new process arrives",
+    "explanation": "Shortest Remaining Time First may preempt when a shorter remaining job arrives.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-os-003",
+    "topic": "Deadlocks",
+    "type": "MCQ",
+    "question": "Which condition is NOT one of the four necessary Coffman deadlock conditions?",
+    "options": [
+      "Hold and wait",
+      "Priority inversion",
+      "Mutual exclusion",
+      "Circular wait"
+    ],
+    "answer": "Priority inversion",
+    "explanation": "The four are mutual exclusion, hold-and-wait, no preemption, and circular wait.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-os-004",
+    "topic": "Memory Management",
+    "type": "MCQ",
+    "question": "A page fault occurs when a referenced virtual page is what?",
+    "options": [
+      "Not currently resident in physical memory",
+      "Always in cache",
+      "Dirty but resident",
+      "Mapped to a register"
+    ],
+    "answer": "Not currently resident in physical memory",
+    "explanation": "The OS must resolve the missing mapping, commonly by loading the page.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-os-005",
+    "topic": "Memory Management",
+    "type": "MCQ",
+    "question": "Which replacement algorithm can exhibit Belady’s anomaly?",
+    "options": [
+      "LRU",
+      "Optimal",
+      "Stack algorithm",
+      "FIFO"
+    ],
+    "answer": "FIFO",
+    "explanation": "Adding frames can increase page faults under FIFO.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-os-006",
+    "topic": "Synchronization",
+    "type": "MCQ",
+    "question": "A semaphore wait operation that finds a zero count generally does what?",
+    "options": [
+      "Creates a process",
+      "Disables the scheduler forever",
+      "Blocks the calling thread",
+      "Increments the count"
+    ],
+    "answer": "Blocks the calling thread",
+    "explanation": "Blocking semaphores queue the waiter until the resource is available.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-os-007",
+    "topic": "Processes",
+    "type": "MCQ",
+    "question": "Which system call typically creates a new process in Unix-like systems?",
+    "options": [
+      "close()",
+      "fork()",
+      "execve()",
+      "wait()"
+    ],
+    "answer": "fork()",
+    "explanation": "fork creates a child process; exec replaces a process image.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-os-008",
+    "topic": "Scheduling",
+    "type": "MCQ",
+    "question": "Turnaround time equals which quantity?",
+    "options": [
+      "Completion time minus arrival time",
+      "Burst time minus waiting time",
+      "Response time minus arrival time",
+      "Waiting time minus burst time"
+    ],
+    "answer": "Completion time minus arrival time",
+    "explanation": "Turnaround measures elapsed time from arrival to completion.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-os-009",
+    "topic": "Threads",
+    "type": "MCQ",
+    "question": "Threads within the same process normally share which resource?",
+    "options": [
+      "Program counter",
+      "Stack pointer",
+      "CPU register set",
+      "Address space"
+    ],
+    "answer": "Address space",
+    "explanation": "Threads have separate stacks/register state but share the process address space.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-os-010",
+    "topic": "File Systems",
+    "type": "MCQ",
+    "question": "What does an inode typically store in a Unix file system?",
+    "options": [
+      "The user password",
+      "Only the file extension",
+      "File metadata and data-block references",
+      "The file name only"
+    ],
+    "answer": "File metadata and data-block references",
+    "explanation": "Directory entries map names to inode identifiers.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
   }
 ]

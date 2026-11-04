@@ -1,0 +1,196 @@
+[
+  {
+    "id": "pdf-ds-001",
+    "topic": "Deque",
+    "type": "MCQ",
+    "question": "Which data structure allows insertion and deletion at both ends?",
+    "options": [
+      "Stack",
+      "Output-restricted deque",
+      "Input-restricted deque",
+      "Deque"
+    ],
+    "answer": "Deque",
+    "explanation": "A general double-ended queue (deque) supports both operations at both ends. An input-restricted deque limits insertion to one end; an output-restricted deque limits deletion to one end.",
+    "source": "batch_16.pdf",
+    "source_page": 4,
+    "verification": "verified"
+  },
+  {
+    "id": "pdf-ds-002",
+    "topic": "Stack",
+    "type": "MCQ",
+    "question": "A stack has capacity 3 and currently contains 2 elements. What happens after Push(2), Peek(), Pop(), Pop(), Pop(), Peek()?",
+    "options": [
+      "The stack remains full",
+      "Overflow",
+      "Underflow / invalid final Peek",
+      "The stack contains one element"
+    ],
+    "answer": "Underflow / invalid final Peek",
+    "explanation": "The push fills the stack; the three pops remove all elements. The final Peek is invalid on an empty stack.",
+    "source": "batch_07.pdf",
+    "source_page": 6,
+    "verification": "verified"
+  },
+  {
+    "id": "original-ds-001",
+    "topic": "Stacks",
+    "type": "MCQ",
+    "question": "Which order does a stack follow?",
+    "options": [
+      "First in, first out",
+      "Random order",
+      "Sorted order",
+      "Last in, first out"
+    ],
+    "answer": "Last in, first out",
+    "explanation": "The last pushed item is the first popped.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-ds-002",
+    "topic": "Queues",
+    "type": "MCQ",
+    "question": "Which operation removes an item from the front of a queue?",
+    "options": [
+      "Enqueue",
+      "Peek",
+      "Dequeue",
+      "Push"
+    ],
+    "answer": "Dequeue",
+    "explanation": "A FIFO queue removes its oldest item.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-ds-003",
+    "topic": "Trees",
+    "type": "MCQ",
+    "question": "What is the maximum number of nodes at depth d in a binary tree (root depth 0)?",
+    "options": [
+      "d+1",
+      "2^d",
+      "d^2",
+      "2d"
+    ],
+    "answer": "2^d",
+    "explanation": "Each level can double the number of nodes.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-ds-004",
+    "topic": "BST",
+    "type": "MCQ",
+    "question": "What is the inorder traversal of a binary search tree with distinct keys?",
+    "options": [
+      "Ascending sorted keys",
+      "Descending keys",
+      "Insertion order",
+      "Level order"
+    ],
+    "answer": "Ascending sorted keys",
+    "explanation": "Left-root-right traversal lists keys in ascending order.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-ds-005",
+    "topic": "Heaps",
+    "type": "MCQ",
+    "question": "In a max-heap, where is the maximum key?",
+    "options": [
+      "At the last leaf",
+      "Always the leftmost leaf",
+      "At the deepest level",
+      "At the root"
+    ],
+    "answer": "At the root",
+    "explanation": "Each parent key is at least as large as its children.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-ds-006",
+    "topic": "Hashing",
+    "type": "MCQ",
+    "question": "What is a collision in a hash table?",
+    "options": [
+      "A table is empty",
+      "A key is deleted",
+      "Two keys map to the same bucket/index",
+      "Two keys are equal"
+    ],
+    "answer": "Two keys map to the same bucket/index",
+    "explanation": "Collisions are resolved by chaining or probing, among other methods.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-ds-007",
+    "topic": "Graphs",
+    "type": "MCQ",
+    "question": "Which traversal normally uses a queue?",
+    "options": [
+      "Recursive backtracking",
+      "Breadth-first search",
+      "Depth-first search",
+      "Postorder tree walk"
+    ],
+    "answer": "Breadth-first search",
+    "explanation": "BFS explores vertices in increasing distance layers.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-ds-008",
+    "topic": "Linked Lists",
+    "type": "MCQ",
+    "question": "What is the time complexity of inserting at the head of a singly linked list, given the head pointer?",
+    "options": [
+      "O(1)",
+      "O(n)",
+      "O(log n)",
+      "O(n log n)"
+    ],
+    "answer": "O(1)",
+    "explanation": "Only a few pointers must be updated.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-ds-009",
+    "topic": "Graphs",
+    "type": "MCQ",
+    "question": "A tree with n vertices has how many edges?",
+    "options": [
+      "n",
+      "n + 1",
+      "2n",
+      "n - 1"
+    ],
+    "answer": "n - 1",
+    "explanation": "Every connected acyclic undirected graph has exactly n−1 edges.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-ds-010",
+    "topic": "Trees",
+    "type": "MCQ",
+    "question": "What is the worst-case search time in an unbalanced binary search tree of n nodes?",
+    "options": [
+      "O(log n)",
+      "O(n log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "answer": "O(n)",
+    "explanation": "A degenerate BST may be a chain.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  }
+]

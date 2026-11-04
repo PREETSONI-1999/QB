@@ -1,0 +1,162 @@
+[
+  {
+    "id": "original-oops-001",
+    "topic": "OOP Basics",
+    "type": "MCQ",
+    "question": "What is encapsulation?",
+    "options": [
+      "Creating many global variables",
+      "Converting code to assembly",
+      "Only function overloading",
+      "Bundling state with operations and controlling access"
+    ],
+    "answer": "Bundling state with operations and controlling access",
+    "explanation": "Classes combine data and behavior behind an interface.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-oops-002",
+    "topic": "Inheritance",
+    "type": "MCQ",
+    "question": "What does inheritance primarily enable?",
+    "options": [
+      "Garbage collection",
+      "Thread scheduling",
+      "Deriving a class from an existing class",
+      "Database normalization"
+    ],
+    "answer": "Deriving a class from an existing class",
+    "explanation": "A derived class can reuse and extend base-class behavior.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-oops-003",
+    "topic": "Polymorphism",
+    "type": "MCQ",
+    "question": "What is runtime polymorphism commonly implemented with?",
+    "options": [
+      "Static linking only",
+      "Virtual method dispatch",
+      "Macro substitution",
+      "Only templates"
+    ],
+    "answer": "Virtual method dispatch",
+    "explanation": "A call resolves to the implementation associated with the runtime object.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-oops-004",
+    "topic": "Abstraction",
+    "type": "MCQ",
+    "question": "What is abstraction in OOP?",
+    "options": [
+      "Expose essential behavior while hiding implementation details",
+      "Copy all fields publicly",
+      "Remove all methods",
+      "Avoid interfaces"
+    ],
+    "answer": "Expose essential behavior while hiding implementation details",
+    "explanation": "Interfaces describe what an object does without requiring callers to know how.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-oops-005",
+    "topic": "Java",
+    "type": "MCQ",
+    "question": "Which Java keyword prevents a class from being subclassed?",
+    "options": [
+      "static",
+      "abstract",
+      "volatile",
+      "final"
+    ],
+    "answer": "final",
+    "explanation": "A final class cannot be extended.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-oops-006",
+    "topic": "Java",
+    "type": "MCQ",
+    "question": "What does method overriding require?",
+    "options": [
+      "Two constructors",
+      "A global function",
+      "A subclass provides an implementation of an inherited overridable method",
+      "Two methods with different names"
+    ],
+    "answer": "A subclass provides an implementation of an inherited overridable method",
+    "explanation": "Overriding replaces inherited behavior under compatible signatures.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-oops-007",
+    "topic": "C++",
+    "type": "MCQ",
+    "question": "What does a virtual destructor help ensure when deleting through a base pointer?",
+    "options": [
+      "The class becomes abstract",
+      "Derived destructors are invoked",
+      "Memory is never freed",
+      "Copy constructors are disabled"
+    ],
+    "answer": "Derived destructors are invoked",
+    "explanation": "Virtual dispatch ensures proper destruction of a polymorphic derived object.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-oops-008",
+    "topic": "Java",
+    "type": "MCQ",
+    "question": "Can a Java class extend multiple classes directly?",
+    "options": [
+      "No",
+      "Yes, any number",
+      "Only if all are final",
+      "Only for primitive classes"
+    ],
+    "answer": "No",
+    "explanation": "Java supports single class inheritance, though a class may implement multiple interfaces.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-oops-009",
+    "topic": "Design",
+    "type": "MCQ",
+    "question": "Which SOLID principle says clients should not depend on methods they do not use?",
+    "options": [
+      "Open-Closed Principle",
+      "Single Responsibility Principle",
+      "Liskov Substitution Principle",
+      "Interface Segregation Principle"
+    ],
+    "answer": "Interface Segregation Principle",
+    "explanation": "Prefer focused interfaces over broad ones that force irrelevant dependencies.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-oops-010",
+    "topic": "C++",
+    "type": "MCQ",
+    "question": "Which access specifier makes members accessible only inside the class and its friends?",
+    "options": [
+      "protected",
+      "virtual",
+      "private",
+      "public"
+    ],
+    "answer": "private",
+    "explanation": "Private members are accessible to members and friends, not ordinary external code.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  }
+]

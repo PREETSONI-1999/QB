@@ -26,5 +26,47 @@
     "short": "C",
     "file": "c.json",
     "description": "Core C language concepts, pointers, arrays and expressions."
+  },
+  {
+    "id": "ds",
+    "name": "Data Structures",
+    "short": "DS",
+    "file": "ds.json",
+    "description": "Practice questions extracted or adapted from uploaded PDFs."
+  },
+  {
+    "id": "coa",
+    "name": "Computer Architecture",
+    "short": "COA",
+    "file": "coa.json",
+    "description": "Practice questions extracted or adapted from uploaded PDFs."
+  },
+  {
+    "id": "aptitude",
+    "name": "Quantitative Aptitude",
+    "short": "QA",
+    "file": "aptitude.json",
+    "description": "Practice questions extracted or adapted from uploaded PDFs."
+  },
+  {
+    "id": "algo",
+    "name": "Algorithms",
+    "short": "ALG",
+    "file": "algo.json",
+    "description": "Sorting, graph algorithms and complexity."
+  },
+  {
+    "id": "oops",
+    "name": "Object-Oriented Programming",
+    "short": "OOP",
+    "file": "oops.json",
+    "description": "Inheritance, polymorphism and design."
+  },
+  {
+    "id": "logic",
+    "name": "Logical Reasoning",
+    "short": "LR",
+    "file": "logic.json",
+    "description": "Reasoning, logic, series and counting."
   }
 ]

@@ -1,0 +1,196 @@
+[
+  {
+    "id": "pdf-apt-001",
+    "topic": "Ages",
+    "type": "MCQ",
+    "question": "The ages of Arun and Varun are in the ratio 3:4. Their total age is 42 years. What is Varun’s age?",
+    "options": [
+      "26 years",
+      "18 years",
+      "24 years",
+      "20 years"
+    ],
+    "answer": "24 years",
+    "explanation": "Varun’s share is 4/(3+4) × 42 = 24 years.",
+    "source": "batch_01.pdf",
+    "source_page": 11,
+    "verification": "verified"
+  },
+  {
+    "id": "pdf-apt-002",
+    "topic": "Profit and Loss",
+    "type": "MCQ",
+    "question": "A fruit seller buys some oranges at 6 for ₹1 and an equal number at 4 for ₹1. He mixes them and sells them at 20 paise per orange. What is his profit or loss percentage?",
+    "options": [
+      "4% loss",
+      "10% profit",
+      "3% profit",
+      "5% loss"
+    ],
+    "answer": "4% loss",
+    "explanation": "For 12 oranges from each batch, cost = ₹2 + ₹3 = ₹5 for 24 oranges. Revenue = 24 × ₹0.20 = ₹4.80, a loss of ₹0.20 or 4%.",
+    "source": "batch_09.pdf",
+    "source_page": 2,
+    "verification": "verified"
+  },
+  {
+    "id": "original-aptitude-001",
+    "topic": "Percentages",
+    "type": "MCQ",
+    "question": "A price increases by 20% then decreases by 20%. What is the net change?",
+    "options": [
+      "No change",
+      "4% increase",
+      "20% decrease",
+      "4% decrease"
+    ],
+    "answer": "4% decrease",
+    "explanation": "1.2 × 0.8 = 0.96 of the original price.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-aptitude-002",
+    "topic": "Averages",
+    "type": "MCQ",
+    "question": "What is the average of 4, 8, 12 and 16?",
+    "options": [
+      "12",
+      "14",
+      "10",
+      "8"
+    ],
+    "answer": "10",
+    "explanation": "The sum 40 divided by four observations is 10.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-aptitude-003",
+    "topic": "Ratio",
+    "type": "MCQ",
+    "question": "If A:B = 3:5 and A = 24, what is B?",
+    "options": [
+      "15",
+      "40",
+      "32",
+      "45"
+    ],
+    "answer": "40",
+    "explanation": "Each part is 8; B is five parts.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-aptitude-004",
+    "topic": "Time and Work",
+    "type": "MCQ",
+    "question": "If one worker completes a job in 6 days, what fraction is completed in 2 days at constant rate?",
+    "options": [
+      "1/3",
+      "1/2",
+      "1/6",
+      "2/3"
+    ],
+    "answer": "1/3",
+    "explanation": "Two of six days is one-third of the job.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-aptitude-005",
+    "topic": "Simple Interest",
+    "type": "MCQ",
+    "question": "What is simple interest on ₹1000 at 10% per annum for 2 years?",
+    "options": [
+      "₹100",
+      "₹210",
+      "₹1200",
+      "₹200"
+    ],
+    "answer": "₹200",
+    "explanation": "SI = PRT/100 = 1000×10×2/100.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-aptitude-006",
+    "topic": "Probability",
+    "type": "MCQ",
+    "question": "What is the probability of getting an even number on a fair six-sided die?",
+    "options": [
+      "2/3",
+      "1/6",
+      "1/2",
+      "1/3"
+    ],
+    "answer": "1/2",
+    "explanation": "Three outcomes (2, 4, 6) out of six are even.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-aptitude-007",
+    "topic": "Ages",
+    "type": "MCQ",
+    "question": "Two ages are in ratio 2:3 and total 40 years. What is the older age?",
+    "options": [
+      "30 years",
+      "24 years",
+      "16 years",
+      "20 years"
+    ],
+    "answer": "24 years",
+    "explanation": "Five parts total 40, so one part is 8; older age is 3×8.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-aptitude-008",
+    "topic": "Speed",
+    "type": "MCQ",
+    "question": "A vehicle travels 150 km in 3 hours at constant speed. What is its speed?",
+    "options": [
+      "50 km/h",
+      "45 km/h",
+      "60 km/h",
+      "75 km/h"
+    ],
+    "answer": "50 km/h",
+    "explanation": "Speed = distance/time = 150/3.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-aptitude-009",
+    "topic": "Profit and Loss",
+    "type": "MCQ",
+    "question": "An item costs ₹500 and sells for ₹600. What is profit percentage on cost?",
+    "options": [
+      "16.67%",
+      "10%",
+      "25%",
+      "20%"
+    ],
+    "answer": "20%",
+    "explanation": "Profit 100 divided by cost 500 is 20%.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-aptitude-010",
+    "topic": "Series",
+    "type": "MCQ",
+    "question": "What is the next term: 2, 6, 12, 20, 30, ...?",
+    "options": [
+      "44",
+      "48",
+      "42",
+      "40"
+    ],
+    "answer": "42",
+    "explanation": "Terms follow n(n+1): 1×2, 2×3, ..., 6×7.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  }
+]

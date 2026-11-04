@@ -1,0 +1,162 @@
+[
+  {
+    "id": "original-algo-001",
+    "topic": "Complexity",
+    "type": "MCQ",
+    "question": "What is the worst-case time complexity of binary search on a sorted array?",
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(n log n)",
+      "O(log n)"
+    ],
+    "answer": "O(log n)",
+    "explanation": "Each comparison halves the remaining search range.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-algo-002",
+    "topic": "Sorting",
+    "type": "MCQ",
+    "question": "Which sorting algorithm is stable in its standard implementation?",
+    "options": [
+      "Selection sort",
+      "Quicksort",
+      "Merge sort",
+      "Heap sort"
+    ],
+    "answer": "Merge sort",
+    "explanation": "A stable merge preserves the relative order of equal keys.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-algo-003",
+    "topic": "Sorting",
+    "type": "MCQ",
+    "question": "What is the worst-case time complexity of standard quicksort?",
+    "options": [
+      "O(n log n)",
+      "O(n^2)",
+      "O(log n)",
+      "O(n)"
+    ],
+    "answer": "O(n^2)",
+    "explanation": "Highly unbalanced partitions yield quadratic comparisons.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-algo-004",
+    "topic": "Graphs",
+    "type": "MCQ",
+    "question": "Which algorithm computes shortest paths with nonnegative edge weights?",
+    "options": [
+      "Dijkstra’s algorithm",
+      "Prim’s algorithm",
+      "Kruskal’s algorithm",
+      "Topological sort alone"
+    ],
+    "answer": "Dijkstra’s algorithm",
+    "explanation": "Its greedy finalization relies on nonnegative weights.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-algo-005",
+    "topic": "Graphs",
+    "type": "MCQ",
+    "question": "Which algorithm can detect negative-weight cycles reachable from a source?",
+    "options": [
+      "Dijkstra",
+      "Binary search",
+      "Union-find alone",
+      "Bellman-Ford"
+    ],
+    "answer": "Bellman-Ford",
+    "explanation": "An additional relaxation after V−1 rounds signals a reachable negative cycle.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-algo-006",
+    "topic": "Dynamic Programming",
+    "type": "MCQ",
+    "question": "What is the main idea of memoization?",
+    "options": [
+      "Use recursion without storage",
+      "Always choose the local optimum",
+      "Cache results of overlapping subproblems",
+      "Sort inputs first"
+    ],
+    "answer": "Cache results of overlapping subproblems",
+    "explanation": "Memoization avoids recomputing identical subproblems.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-algo-007",
+    "topic": "Greedy",
+    "type": "MCQ",
+    "question": "Which algorithm constructs a minimum spanning tree by repeatedly choosing the lightest eligible edge?",
+    "options": [
+      "Binary search",
+      "Kruskal’s algorithm",
+      "Bellman-Ford",
+      "Floyd-Warshall"
+    ],
+    "answer": "Kruskal’s algorithm",
+    "explanation": "It adds edges in increasing weight order unless they form a cycle.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-algo-008",
+    "topic": "Complexity",
+    "type": "MCQ",
+    "question": "What is the asymptotic running time of two nested loops each running n iterations?",
+    "options": [
+      "O(n^2)",
+      "O(n)",
+      "O(log n)",
+      "O(2^n)"
+    ],
+    "answer": "O(n^2)",
+    "explanation": "The body runs n×n times.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-algo-009",
+    "topic": "Graphs",
+    "type": "MCQ",
+    "question": "What is a topological ordering defined for?",
+    "options": [
+      "Every undirected graph",
+      "Every cyclic digraph",
+      "Only complete graphs",
+      "Directed acyclic graphs"
+    ],
+    "answer": "Directed acyclic graphs",
+    "explanation": "It orders vertices so every directed edge points forward.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-algo-010",
+    "topic": "Recursion",
+    "type": "MCQ",
+    "question": "What is the recurrence T(n)=2T(n/2)+O(n) for merge sort?",
+    "options": [
+      "O(n^2)",
+      "O(log n)",
+      "O(n log n)",
+      "O(n)"
+    ],
+    "answer": "O(n log n)",
+    "explanation": "Master theorem gives n log n for two half-size subproblems plus linear merge.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  }
+]

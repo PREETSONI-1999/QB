@@ -12,5 +12,165 @@
     ],
     "answer": "HAVING",
     "explanation": "WHERE filters rows before grouping. HAVING filters groups after GROUP BY, often using aggregate conditions such as COUNT(*) > 1."
+  },
+  {
+    "id": "original-dbms-001",
+    "topic": "SQL",
+    "type": "MCQ",
+    "question": "Which SQL clause filters individual rows before aggregation?",
+    "options": [
+      "HAVING",
+      "ORDER BY",
+      "LIMIT",
+      "WHERE"
+    ],
+    "answer": "WHERE",
+    "explanation": "WHERE acts before grouping; HAVING filters grouped results.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-dbms-002",
+    "topic": "Keys",
+    "type": "MCQ",
+    "question": "What is a candidate key?",
+    "options": [
+      "A key with duplicate values",
+      "A non-minimal superkey",
+      "A minimal superkey",
+      "Any foreign key"
+    ],
+    "answer": "A minimal superkey",
+    "explanation": "It uniquely identifies a row and has no redundant attribute.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-dbms-003",
+    "topic": "Normalization",
+    "type": "MCQ",
+    "question": "A relation is in BCNF when for every nontrivial FD X → Y, X is what?",
+    "options": [
+      "A composite key",
+      "A superkey",
+      "A foreign key",
+      "A nullable column"
+    ],
+    "answer": "A superkey",
+    "explanation": "BCNF requires every nontrivial determinant to be a superkey.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-dbms-004",
+    "topic": "Transactions",
+    "type": "MCQ",
+    "question": "Which ACID property ensures committed changes survive a crash?",
+    "options": [
+      "Durability",
+      "Isolation",
+      "Atomicity",
+      "Consistency"
+    ],
+    "answer": "Durability",
+    "explanation": "Durability concerns persistence after commit.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-dbms-005",
+    "topic": "Transactions",
+    "type": "MCQ",
+    "question": "A dirty read occurs when a transaction reads what?",
+    "options": [
+      "Only committed rows",
+      "An index page",
+      "A primary key",
+      "Uncommitted changes from another transaction"
+    ],
+    "answer": "Uncommitted changes from another transaction",
+    "explanation": "Those changes might later be rolled back.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-dbms-006",
+    "topic": "Indexes",
+    "type": "MCQ",
+    "question": "A B+ tree stores record references predominantly where?",
+    "options": [
+      "Hash buckets",
+      "Transaction logs",
+      "Leaf nodes",
+      "Only the root"
+    ],
+    "answer": "Leaf nodes",
+    "explanation": "Internal nodes guide searches; leaves contain search entries and often link sequentially.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-dbms-007",
+    "topic": "Joins",
+    "type": "MCQ",
+    "question": "Which join retains all rows from the left table even without a match?",
+    "options": [
+      "RIGHT SEMI JOIN",
+      "LEFT OUTER JOIN",
+      "INNER JOIN",
+      "CROSS JOIN"
+    ],
+    "answer": "LEFT OUTER JOIN",
+    "explanation": "Unmatched right-side columns are NULL in the output.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-dbms-008",
+    "topic": "SQL",
+    "type": "MCQ",
+    "question": "What does COUNT(column_name) exclude?",
+    "options": [
+      "NULL values",
+      "Duplicate rows always",
+      "Zero values",
+      "Negative values"
+    ],
+    "answer": "NULL values",
+    "explanation": "COUNT(column) counts non-NULL entries, unlike COUNT(*).",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-dbms-009",
+    "topic": "Concurrency",
+    "type": "MCQ",
+    "question": "Two-phase locking has which phases?",
+    "options": [
+      "Read then write",
+      "Commit then abort",
+      "Parse then execute",
+      "Growing then shrinking"
+    ],
+    "answer": "Growing then shrinking",
+    "explanation": "Locks are acquired during growing and released during shrinking.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-dbms-010",
+    "topic": "Normalization",
+    "type": "MCQ",
+    "question": "Which normal form removes partial dependency on a candidate key?",
+    "options": [
+      "Fourth normal form",
+      "Domain-key normal form",
+      "Second normal form (2NF)",
+      "First normal form"
+    ],
+    "answer": "Second normal form (2NF)",
+    "explanation": "2NF requires 1NF and no non-prime attribute partially dependent on a candidate key.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
   }
 ]

@@ -12,5 +12,181 @@
     ],
     "answer": "The value stored in x",
     "explanation": "&x produces the address of x. Dereferencing that address with * gives the value stored in x."
+  },
+  {
+    "id": "pdf-c-001",
+    "topic": "Pointers",
+    "type": "MCQ",
+    "question": "In C, for a valid int variable x, what does *(&x) evaluate to?",
+    "options": [
+      "Address of x",
+      "Value of x",
+      "Size of x",
+      "Undefined behavior"
+    ],
+    "answer": "Value of x",
+    "explanation": "The address-of operator & yields the address of x; dereferencing it with * retrieves the stored value.",
+    "source": "original practice based on pointer concepts",
+    "verification": "verified"
+  },
+  {
+    "id": "original-c-001",
+    "topic": "Pointers",
+    "type": "MCQ",
+    "question": "What is the type of &x if x is declared int x?",
+    "options": [
+      "int",
+      "int **",
+      "void",
+      "int *"
+    ],
+    "answer": "int *",
+    "explanation": "The address-of operator yields a pointer to the operand type.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-c-002",
+    "topic": "Arrays",
+    "type": "MCQ",
+    "question": "For int a[10], what is sizeof(a)/sizeof(a[0]) within the declaring scope?",
+    "options": [
+      "4",
+      "Implementation-defined number of elements",
+      "10",
+      "1"
+    ],
+    "answer": "10",
+    "explanation": "The array occupies ten int elements; it has not decayed to a pointer here.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-c-003",
+    "topic": "Storage",
+    "type": "MCQ",
+    "question": "What is the initial value of an uninitialized static-duration int object in C?",
+    "options": [
+      "-1",
+      "0",
+      "Indeterminate",
+      "1"
+    ],
+    "answer": "0",
+    "explanation": "Static-storage-duration objects are zero-initialized.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-c-004",
+    "topic": "Strings",
+    "type": "MCQ",
+    "question": "What is strlen(\"abc\")?",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "Implementation-defined"
+    ],
+    "answer": "3",
+    "explanation": "strlen counts characters before the terminating null byte.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-c-005",
+    "topic": "Operators",
+    "type": "MCQ",
+    "question": "What does the expression 7 / 2 evaluate to when both operands are int?",
+    "options": [
+      "3.5",
+      "4",
+      "2",
+      "3"
+    ],
+    "answer": "3",
+    "explanation": "Integer division truncates toward zero in modern C.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-c-006",
+    "topic": "Pointers",
+    "type": "MCQ",
+    "question": "What does NULL signify when used as a pointer constant?",
+    "options": [
+      "An uninitialized pointer",
+      "A dangling pointer",
+      "A null pointer value",
+      "Address zero in every representation"
+    ],
+    "answer": "A null pointer value",
+    "explanation": "It compares unequal to a pointer to any object or function.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-c-007",
+    "topic": "Memory",
+    "type": "MCQ",
+    "question": "Which function releases dynamically allocated memory from malloc?",
+    "options": [
+      "release",
+      "free",
+      "delete",
+      "dispose"
+    ],
+    "answer": "free",
+    "explanation": "free releases a previously allocated block (or accepts NULL).",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-c-008",
+    "topic": "Control Flow",
+    "type": "MCQ",
+    "question": "What is the effect of break in a switch statement?",
+    "options": [
+      "Exit the nearest enclosing switch",
+      "Exit the entire program",
+      "Restart the switch",
+      "Skip only the next statement"
+    ],
+    "answer": "Exit the nearest enclosing switch",
+    "explanation": "break transfers control past the switch.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-c-009",
+    "topic": "Functions",
+    "type": "MCQ",
+    "question": "In C, function arguments are passed using which model?",
+    "options": [
+      "Pass by reference only",
+      "Pass by name",
+      "Pass by need",
+      "Pass by value"
+    ],
+    "answer": "Pass by value",
+    "explanation": "Pointer values can be passed, but the pointer argument itself is copied.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
+  },
+  {
+    "id": "original-c-010",
+    "topic": "Undefined Behavior",
+    "type": "MCQ",
+    "question": "What is the behavior of dereferencing a pointer after free without reallocating the object?",
+    "options": [
+      "Always a segmentation fault",
+      "Always the old value",
+      "Undefined behavior",
+      "Always zero"
+    ],
+    "answer": "Undefined behavior",
+    "explanation": "Accessing freed storage through the stale pointer is invalid.",
+    "source": "Original practice question (not a PDF extraction or GATE PYQ)",
+    "verification": "authored"
   }
 ]
